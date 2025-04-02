@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BMI Calculator</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="container">
+            
+                    <h2>Check your BMI (Body Mass index)</h2>
+                    <p id="introText"> Enter your Height and Weight below to check your BMI results</p>
+                <div class="panel">
+                    <div class="genderchoice">
+                        <p>Gender: </p>
+                        <input class="radio" name="gender" type="radio" value="Male">
+                        <p>Male</p>
+                        <input class="radio" name="gender" type="radio" value="Female">
+                        <p>Female</p>
+                    </div>
+                    <div id="heightInput" class="height">
+                        <p>Enter Your Height (in Cm)</p>
+                        <input id="height" type="number" value=" ">
+                    </div>
+                    <div id="weightInput" class="weight">
+                        <p>Enter Your Weight (in Kg)</p>
+                        <input id="weight" type="number" value=" ">
+                    </div>
+                    <button onclick="calculate()"><b>Calculate BMI</b></button>
+                </div>
+                <div id="results">
+                    <p>Your BMI results will appear here.</p>
+                </div>
+            
+    </div>
+<script src="main.js"></script>
+</body>
+</html>

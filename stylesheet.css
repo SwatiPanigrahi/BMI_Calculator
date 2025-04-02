@@ -1,0 +1,46 @@
+body{
+    background-color: #eee;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+.panel{
+    padding: 30px;
+    margin: 0 30%;
+    background-color: darkcyan;
+}
+.panel input{
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    outline: none;
+    color: black;
+    font-size: 15px;
+}
+.panel p{
+   color: aliceblue;
+   font-size: 1.2rem;
+}
+.panel input:focus {
+    border: 2px solid black;
+}
+.genderchoice{
+    display: flex;
+}
+.genderchoice input{
+    margin-left: 60px;
+    margin-top: 15px;
+    height: 30px;
+    width: 30px;
+}
+button{
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid;
+    outline: none;
+    border-radius: 10px;
+}
+button:hover{
+    color: aliceblue;
+    background-color: rgb(46, 55, 136);
+}
